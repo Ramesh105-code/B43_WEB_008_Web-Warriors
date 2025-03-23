@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign In</title>
+        <link
+            rel="stylesheet"
+            href="./Register & Signin Page/signin/signin.css"
+        />
+    </head>
+    <body>
+        <header>
+            <!-- navbar -->
+            <div id="navbar">
+                <!-- left side logo -->
+                <div id="logo">
+                    <img src="./logo.svg" alt="logo" />
+                </div>
+                <!-- right side options -->
+                <div id="right-img">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png"
+                        alt="country-flag"
+                    />
+                    <a
+                        href="https://secure.booking.com/help?aid=397594&sid=a7cf04483ab5200dea12c9dba87829fa"
+                    >
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeiK2OhwWOfnp6y-SXr77L5h29W0dslk9ZTQ&s"
+                            alt="Help and support"
+                        />
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sign In form -->
+        <div id="signin-form">
+            <!-- text content -->
+            <h1>Sign in to your account</h1>
+            <p>Please enter your email and password to sign in.</p>
+
+            <!-- input area -->
+            <input
+                id="email"
+                type="email"
+                placeholder="Enter your email id"
+                required
+            />
+            <input
+                id="password"
+                type="password"
+                placeholder="Enter your password"
+                required
+            />
+            <span id="email-error"></span>
+
+            <!-- Sign In button -->
+            <button id="signin-btn">Sign In</button>
+            <p>or use one of these options</p>
+
+            <!-- social media options -->
+            <div id="social-media">
+                <img
+                    id="google-btn"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-jWZ9zMMN1g2g7X__VPJ7p_LoekF2mQFzA&s"
+                    alt="Google"
+                />
+                <img
+                    id="apple-btn"
+                    src="https://1000logos.net/wp-content/uploads/2017/02/Apple-Logosu.png"
+                    alt="Apple"
+                />
+                <img
+                    id="facebook-btn"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImj5adg1sNvD0iCEQcjIGr-CZGuiX1or61w&s"
+                    alt="Facebook"
+                />
+            </div>
+        </div>
+
+        <!-- Terms & conditions -->
+        <footer>
+            <p>
+                By signing in, you agree with our
+                <a
+                    href="https://www.booking.com/content/terms.html?aid=397594&sid=a7cf04483ab5200dea12c9dba87829fa&keep_landing=1&"
+                    target="blank"
+                    >Terms & Conditions</a
+                >
+                and
+                <a
+                    href="https://www.booking.com/content/privacy.html?aid=397594&sid=a7cf04483ab5200dea12c9dba87829fa&keep_landing=1&"
+                    target="blank"
+                    >Privacy Statement</a
+                >
+            </p>
+            <p>All rights reserved.</p>
+            <br />
+            <p>Copyright (2006-2024)-QuickBook.com™</p>
+        </footer>
+        <script type="module" src="./Scripts/config.js"></script>
+        <script
+            src="./Register & Signin Page/signin/signin.js"
+            type="module"
+            defer
+        ></script>
+    </body>
+</html>

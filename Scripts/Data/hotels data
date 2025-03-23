@@ -1,0 +1,72 @@
+ hotels = [
+  {
+    name: "The Oberoi Udaivilas",
+    img: "https://4.bp.blogspot.com/-S0ngG56-37w/VK95d5neojI/AAAAAAAAGqU/Y-S7JvTE16A/s1600/The%2BOberoi%2BUdaivilas%2C%2BUdaipur.jpg",
+    location: "Udaipur, Rajasthan",
+    price: 14000,
+    rating: 4.9
+  },
+  {
+    name: "Taj Mahal Palace",
+    img: "https://www.ihcltata.com/content/dam/tajhotels/ihcl/taj/Taj-banner.jpg",
+    location: "Mumbai, Maharashtra",
+    price: 12000,
+    rating: 4.8
+  },
+  {
+    name: "Leela Palace",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKeVNrm6C2fJyOB23olUWqIRgny9154dQW5g&s",
+    location: "Bengaluru, Karnataka",
+    price: 9500,
+    rating: 4.7
+  },
+  {
+    name: "The Oberoi Amarvilas",
+    img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1b/25/d4/dining-at-the-oberoi.jpg?w=1200&h=-1&s=1",
+    location: "Agra, Uttar Pradesh",
+    price: 13500,
+    rating: 4.8
+  },
+  {
+    name: "ITC Grand Bharat",
+    img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/f7/e0/aa/the-verandah.jpg?w=700&h=-1&s=1",
+    location: "Gurugram, Haryana",
+    price: 12000,
+    rating: 4.6
+  },
+  {
+    name: "Capital O Discover",
+    img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/05/9b/dc/capital-o-35403-discover.jpg?w=1200&h=-1&s=1",
+    location: "Pune, Maharashtra",
+    price: 3000,
+    rating: 4.2
+  },
+  {
+    name: "Radisson Blu Resort",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/441038960.jpg?k=92922cbbe972248e39a5ab6e30413f81b82c5f204e7bda6b8acd3da90d2fd0d0&o=&hp=1",
+    location: "Goa, India",
+    price: 8000,
+    rating: 4.5
+  },
+  {
+    name: "Hyatt Regency Chennai",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/461609223.jpg?k=ea75319b63e7c42025b34acff43e3308a7a772598c04b8e6cd420578c8091d1d&o=&hp=1",
+    location: "Chennai, Tamil Nadu",
+    price: 7000,
+    rating: 4.3
+  },
+  {
+    name: "Vivanta by Taj",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/430825435.jpg?k=3e8a521794862527b7c7ab2316a108088ddb3c23e39d861aa63322e7d0534c7d&o=",
+    location: "Jaipur, Rajasthan",
+    price: 11000,
+    rating: 4.7
+  },
+  {
+    name: "Trident Hotel",
+    img: "https://4.bp.blogspot.com/-S0ngG56-37w/VK95d5neojI/AAAAAAAAGqU/Y-S7JvTE16A/s1600/The%2BOberoi%2BUdaivilas%2C%2BUdaipur.jpg",
+    location: "Cochin, Kerala",
+    price: 5000,
+    rating: 4.4
+  }
+];

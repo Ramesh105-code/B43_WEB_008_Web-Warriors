@@ -1,0 +1,2449 @@
+{
+    "propertiesData": [
+        {
+            "name": "Raj Palace",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Jaipur",
+            "price": 8500,
+            "rating": 8.5,
+            "reviews": 342,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Lakshmi Villa",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Udaipur",
+            "price": 12750,
+            "rating": 9.2,
+            "reviews": 189,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Green Valley Homestay",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Munnar",
+            "price": 3200,
+            "rating": 7.8,
+            "reviews": 156,
+            "type": "homestays",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "The Grand Heritage",
+            "img": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+            "location": "Chennai",
+            "price": 15900,
+            "rating": 9.5,
+            "reviews": 478,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain View Cabin",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Manali",
+            "price": 4500,
+            "rating": 8.3,
+            "reviews": 234,
+            "type": "cabins",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Sunset Beach Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Goa",
+            "price": 12500,
+            "rating": 8.9,
+            "reviews": 342,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Urban Oasis Hotel",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Mumbai",
+            "price": 8900,
+            "rating": 8.5,
+            "reviews": 289,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Lakeside Villa",
+            "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+            "location": "Udaipur",
+            "price": 18500,
+            "rating": 9.2,
+            "reviews": 167,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Cozy Cottage",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Coorg",
+            "price": 5500,
+            "rating": 8.1,
+            "reviews": 145,
+            "type": "homestays",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "City Center Suites",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Bangalore",
+            "price": 7800,
+            "rating": 8.7,
+            "reviews": 312,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain View Resort",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Shimla",
+            "price": 12500,
+            "rating": 8.9,
+            "reviews": 234,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Beachfront Paradise",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Goa",
+            "price": 15000,
+            "rating": 9.1,
+            "reviews": 423,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Heritage Haveli",
+            "img": "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
+            "location": "Jaipur",
+            "price": 9800,
+            "rating": 8.4,
+            "reviews": 178,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Forest Retreat",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Wayanad",
+            "price": 6500,
+            "rating": 8.3,
+            "reviews": 156,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Luxury Houseboat",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Alleppey",
+            "price": 8900,
+            "rating": 8.8,
+            "reviews": 289,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": false,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain View Resort",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Shimla",
+            "price": 12500,
+            "rating": 9.1,
+            "reviews": 245,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Beachside Villa",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Goa",
+            "price": 15800,
+            "rating": 8.9,
+            "reviews": 312,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Desert Camp",
+            "img": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+            "location": "Jaisalmer",
+            "price": 7500,
+            "rating": 8.7,
+            "reviews": 167,
+            "type": "campsites",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Tea Estate Bungalow",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Darjeeling",
+            "price": 9200,
+            "rating": 8.8,
+            "reviews": 198,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Lodge",
+            "img": "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
+            "location": "Rishikesh",
+            "price": 6800,
+            "rating": 8.4,
+            "reviews": 145,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "City Luxury Hotel",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Mumbai",
+            "price": 18500,
+            "rating": 9.3,
+            "reviews": 423,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Backwater Resort",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Kumarakom",
+            "price": 13200,
+            "rating": 9.0,
+            "reviews": 267,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hill Station Cottage",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Ooty",
+            "price": 8900,
+            "rating": 8.6,
+            "reviews": 178,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Palace Heritage Hotel",
+            "img": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+            "location": "Mysore",
+            "price": 16500,
+            "rating": 9.2,
+            "reviews": 345,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Eco Forest Resort",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Coorg",
+            "price": 11200,
+            "rating": 8.9,
+            "reviews": 234,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Seaside Luxury Villa",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Goa",
+            "price": 25000,
+            "rating": 9.4,
+            "reviews": 412,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Urban Business Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Bangalore",
+            "price": 8500,
+            "rating": 8.7,
+            "reviews": 523,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain View Lodge",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Manali",
+            "price": 6800,
+            "rating": 8.3,
+            "reviews": 167,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Desert Camp Resort",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Jaisalmer",
+            "price": 12000,
+            "rating": 8.8,
+            "reviews": 245,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Backwater Retreat",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Alleppey",
+            "price": 15000,
+            "rating": 9.1,
+            "reviews": 334,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "City View Apartment",
+            "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+            "location": "Mumbai",
+            "price": 7500,
+            "rating": 8.4,
+            "reviews": 189,
+            "type": "apartments",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Tea Estate Bungalow",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Darjeeling",
+            "price": 13500,
+            "rating": 8.9,
+            "reviews": 156,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Resort",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Rishikesh",
+            "price": 9800,
+            "rating": 8.5,
+            "reviews": 278,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Heritage Homestay",
+            "img": "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
+            "location": "Cochin",
+            "price": 5500,
+            "rating": 8.2,
+            "reviews": 145,
+            "type": "homestays",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Lake View Resort",
+            "img": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+            "location": "Udaipur",
+            "price": 18500,
+            "rating": 9.3,
+            "reviews": 467,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Beach Shack Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Kovalam",
+            "price": 7200,
+            "rating": 8.1,
+            "reviews": 198,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Hill View Hotel",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Munnar",
+            "price": 9500,
+            "rating": 8.7,
+            "reviews": 289,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Royal Palace Hotel",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Jodhpur",
+            "price": 21000,
+            "rating": 9.5,
+            "reviews": 378,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Forest Cabin",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Thekkady",
+            "price": 6500,
+            "rating": 8.4,
+            "reviews": 167,
+            "type": "cabins",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Business Suite Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Hyderabad",
+            "price": 11000,
+            "rating": 8.8,
+            "reviews": 423,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Valley View Resort",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Kodaikanal",
+            "price": 8900,
+            "rating": 8.6,
+            "reviews": 234,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Luxury Beach Resort",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Mahabalipuram",
+            "price": 16500,
+            "rating": 9.0,
+            "reviews": 312,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain Retreat",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Dharamshala",
+            "price": 7800,
+            "rating": 8.5,
+            "reviews": 189,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "City Center Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Pune",
+            "price": 9200,
+            "rating": 8.7,
+            "reviews": 345,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Heritage Fort Hotel",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Agra",
+            "price": 19500,
+            "rating": 9.4,
+            "reviews": 467,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Lodge",
+            "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+            "location": "Rishikesh",
+            "price": 6500,
+            "rating": 8.3,
+            "reviews": 245,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Palm Beach Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Kovalam",
+            "price": 13500,
+            "rating": 8.9,
+            "reviews": 312,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hill View Cottage",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Ooty",
+            "price": 4800,
+            "rating": 8.1,
+            "reviews": 167,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Desert Camp",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Jaisalmer",
+            "price": 8900,
+            "rating": 8.7,
+            "reviews": 289,
+            "type": "campsites",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Tea Estate Bungalow",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Darjeeling",
+            "price": 11200,
+            "rating": 8.8,
+            "reviews": 198,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Backwater Resort",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Alleppey",
+            "price": 14500,
+            "rating": 9.0,
+            "reviews": 356,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Royal Palace Hotel",
+            "img": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+            "location": "Mysore",
+            "price": 16800,
+            "rating": 9.2,
+            "reviews": 423,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Beach Shack",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Varkala",
+            "price": 3500,
+            "rating": 7.9,
+            "reviews": 145,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": false,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Valley View Resort",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Kullu",
+            "price": 9800,
+            "rating": 8.6,
+            "reviews": 267,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Business Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Hyderabad",
+            "price": 8500,
+            "rating": 8.4,
+            "reviews": 312,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Luxury Tent Resort",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Ranthambore",
+            "price": 12500,
+            "rating": 8.9,
+            "reviews": 189,
+            "type": "campsites",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain Lodge",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Gangtok",
+            "price": 7200,
+            "rating": 8.2,
+            "reviews": 156,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Lake View Hotel",
+            "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+            "location": "Nainital",
+            "price": 8900,
+            "rating": 8.5,
+            "reviews": 234,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Eco Resort",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Thekkady",
+            "price": 9500,
+            "rating": 8.7,
+            "reviews": 178,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Beach Villa",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Mahabalipuram",
+            "price": 16500,
+            "rating": 9.1,
+            "reviews": 289,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Retreat",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Rishikesh",
+            "price": 7500,
+            "rating": 8.4,
+            "reviews": 156,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Desert Camp",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Jaisalmer",
+            "price": 12000,
+            "rating": 8.9,
+            "reviews": 245,
+            "type": "campsites",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Hill View Resort",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Darjeeling",
+            "price": 9800,
+            "rating": 8.6,
+            "reviews": 312,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Backwater Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Alleppey",
+            "price": 13500,
+            "rating": 9.2,
+            "reviews": 423,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain Lodge",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Mussoorie",
+            "price": 8500,
+            "rating": 8.3,
+            "reviews": 178,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Heritage Palace",
+            "img": "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
+            "location": "Mysore",
+            "price": 18900,
+            "rating": 9.4,
+            "reviews": 289,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Tea Estate Stay",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Ooty",
+            "price": 7200,
+            "rating": 8.5,
+            "reviews": 145,
+            "type": "homestays",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Beach Resort",
+            "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+            "location": "Kovalam",
+            "price": 14500,
+            "rating": 8.8,
+            "reviews": 356,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Forest Lodge",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Bandipur",
+            "price": 9500,
+            "rating": 8.7,
+            "reviews": 167,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Valley View Resort",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Kullu",
+            "price": 11200,
+            "rating": 8.9,
+            "reviews": 234,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "City Luxury Hotel",
+            "img": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+            "location": "Delhi",
+            "price": 16500,
+            "rating": 9.3,
+            "reviews": 478,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Spice Garden Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Munnar",
+            "price": 8900,
+            "rating": 8.6,
+            "reviews": 198,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Royal Palace Hotel",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Udaipur",
+            "price": 21000,
+            "rating": 9.5,
+            "reviews": 567,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Bamboo Cottage",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Coorg",
+            "price": 6500,
+            "rating": 8.2,
+            "reviews": 145,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Seaside Resort",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Pondicherry",
+            "price": 13500,
+            "rating": 8.9,
+            "reviews": 289,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Wildlife Lodge",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Ranthambore",
+            "price": 12500,
+            "rating": 8.8,
+            "reviews": 234,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Lake Resort",
+            "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+            "location": "Udaipur",
+            "price": 16800,
+            "rating": 9.1,
+            "reviews": 345,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hill Station Villa",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Kodaikanal",
+            "price": 9800,
+            "rating": 8.7,
+            "reviews": 178,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Business Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Pune",
+            "price": 8500,
+            "rating": 8.5,
+            "reviews": 267,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain Retreat",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Gangtok",
+            "price": 11500,
+            "rating": 8.9,
+            "reviews": 198,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Coastal Paradise Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Kochi",
+            "price": 14500,
+            "rating": 9.1,
+            "reviews": 312,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Heritage Mansion",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Mysore",
+            "price": 16800,
+            "rating": 9.3,
+            "reviews": 245,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Valley View Resort",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Kasol",
+            "price": 7200,
+            "rating": 8.4,
+            "reviews": 167,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Urban Luxury Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Hyderabad",
+            "price": 12500,
+            "rating": 8.8,
+            "reviews": 389,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Tea Estate Bungalow",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Darjeeling",
+            "price": 8900,
+            "rating": 8.6,
+            "reviews": 145,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Camp",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Rishikesh",
+            "price": 5500,
+            "rating": 8.2,
+            "reviews": 178,
+            "type": "campsites",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Royal Palace Hotel",
+            "img": "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
+            "location": "Jodhpur",
+            "price": 18500,
+            "rating": 9.4,
+            "reviews": 267,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Forest Lodge",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Bandipur",
+            "price": 6800,
+            "rating": 8.3,
+            "reviews": 156,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Seaside Villa",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Pondicherry",
+            "price": 13500,
+            "rating": 8.9,
+            "reviews": 234,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain View Hotel",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Mussoorie",
+            "price": 9500,
+            "rating": 8.5,
+            "reviews": 289,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Backwater Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Kumarakom",
+            "price": 15800,
+            "rating": 9.2,
+            "reviews": 345,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hill Country Cottage",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Coonoor",
+            "price": 5200,
+            "rating": 8.1,
+            "reviews": 167,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Business Suites",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Ahmedabad",
+            "price": 8900,
+            "rating": 8.7,
+            "reviews": 278,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Desert Luxury Camp",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Pushkar",
+            "price": 9800,
+            "rating": 8.8,
+            "reviews": 189,
+            "type": "campsites",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Lakefront Resort",
+            "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+            "location": "Mount Abu",
+            "price": 11200,
+            "rating": 8.6,
+            "reviews": 245,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Eco Lodge",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Kabini",
+            "price": 7500,
+            "rating": 8.4,
+            "reviews": 156,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Heritage Fort Stay",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Bikaner",
+            "price": 13800,
+            "rating": 8.9,
+            "reviews": 234,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Beach Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Varkala",
+            "price": 12500,
+            "rating": 8.8,
+            "reviews": 312,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hillside Homestay",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Chikmagalur",
+            "price": 4800,
+            "rating": 8.2,
+            "reviews": 145,
+            "type": "homestays",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "City Business Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Kolkata",
+            "price": 9500,
+            "rating": 8.5,
+            "reviews": 289,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain View Lodge",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Manali",
+            "price": 8900,
+            "rating": 8.6,
+            "reviews": 234,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Seaside Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Goa",
+            "price": 15500,
+            "rating": 9.1,
+            "reviews": 423,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Forest Retreat",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Coorg",
+            "price": 7800,
+            "rating": 8.4,
+            "reviews": 178,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Heritage Haveli",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Jodhpur",
+            "price": 13500,
+            "rating": 8.9,
+            "reviews": 312,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Valley Resort",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Dehradun",
+            "price": 9200,
+            "rating": 8.5,
+            "reviews": 245,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Luxury Villa",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Lonavala",
+            "price": 18500,
+            "rating": 9.3,
+            "reviews": 356,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Tea Estate Stay",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Darjeeling",
+            "price": 6500,
+            "rating": 8.2,
+            "reviews": 167,
+            "type": "homestays",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Desert Palace",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Bikaner",
+            "price": 12800,
+            "rating": 8.8,
+            "reviews": 289,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Camp",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Rishikesh",
+            "price": 5500,
+            "rating": 8.0,
+            "reviews": 145,
+            "type": "campsites",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Beach Villa",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Kovalam",
+            "price": 16500,
+            "rating": 9.2,
+            "reviews": 378,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hill Station Resort",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Shimla",
+            "price": 11200,
+            "rating": 8.7,
+            "reviews": 267,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Business Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Mumbai",
+            "price": 14500,
+            "rating": 8.9,
+            "reviews": 456,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Eco Lodge",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Wayanad",
+            "price": 7200,
+            "rating": 8.3,
+            "reviews": 189,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Royal Palace Hotel",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Mysore",
+            "price": 19500,
+            "rating": 9.4,
+            "reviews": 512,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain Cottage",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Mussoorie",
+            "price": 8500,
+            "rating": 8.5,
+            "reviews": 234,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Beachfront Villa",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Pondicherry",
+            "price": 15800,
+            "rating": 9.2,
+            "reviews": 278,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Tea Estate Retreat",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Darjeeling",
+            "price": 12500,
+            "rating": 8.9,
+            "reviews": 198,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Desert Oasis Resort",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Jodhpur",
+            "price": 13200,
+            "rating": 8.8,
+            "reviews": 245,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Inn",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Varanasi",
+            "price": 6800,
+            "rating": 8.1,
+            "reviews": 167,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Forest Lodge",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Bandipur",
+            "price": 9500,
+            "rating": 8.6,
+            "reviews": 189,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "City Luxury Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Mumbai",
+            "price": 18500,
+            "rating": 9.3,
+            "reviews": 456,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hilltop Homestay",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Coorg",
+            "price": 5200,
+            "rating": 8.2,
+            "reviews": 134,
+            "type": "homestays",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Lakeside Resort",
+            "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+            "location": "Udaipur",
+            "price": 14500,
+            "rating": 9.0,
+            "reviews": 289,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Heritage Fort Stay",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Jaisalmer",
+            "price": 16800,
+            "rating": 9.2,
+            "reviews": 312,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Valley View Villa",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Manali",
+            "price": 13500,
+            "rating": 8.9,
+            "reviews": 223,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Backwater Lodge",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Kumarakom",
+            "price": 11200,
+            "rating": 8.7,
+            "reviews": 178,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain View Resort",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Shimla",
+            "price": 12800,
+            "rating": 8.8,
+            "reviews": 267,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Beach Cottage",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Gokarna",
+            "price": 6500,
+            "rating": 8.3,
+            "reviews": 145,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Business Suites",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Ahmedabad",
+            "price": 8900,
+            "rating": 8.7,
+            "reviews": 278,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Desert Luxury Camp",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Pushkar",
+            "price": 9800,
+            "rating": 8.8,
+            "reviews": 189,
+            "type": "campsites",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Lakefront Resort",
+            "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+            "location": "Mount Abu",
+            "price": 11200,
+            "rating": 8.6,
+            "reviews": 245,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Eco Lodge",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Kabini",
+            "price": 7500,
+            "rating": 8.4,
+            "reviews": 156,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Heritage Fort Stay",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Bikaner",
+            "price": 13800,
+            "rating": 8.9,
+            "reviews": 234,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Beach Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Varkala",
+            "price": 12500,
+            "rating": 8.8,
+            "reviews": 312,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hillside Homestay",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Chikmagalur",
+            "price": 4800,
+            "rating": 8.2,
+            "reviews": 145,
+            "type": "homestays",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "City Business Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Kolkata",
+            "price": 9500,
+            "rating": 8.5,
+            "reviews": 289,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain View Lodge",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Manali",
+            "price": 8900,
+            "rating": 8.6,
+            "reviews": 234,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Seaside Resort",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Goa",
+            "price": 15500,
+            "rating": 9.1,
+            "reviews": 423,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Forest Retreat",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Coorg",
+            "price": 7800,
+            "rating": 8.4,
+            "reviews": 178,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Heritage Haveli",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Jodhpur",
+            "price": 13500,
+            "rating": 8.9,
+            "reviews": 312,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Valley Resort",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Dehradun",
+            "price": 9200,
+            "rating": 8.5,
+            "reviews": 245,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Luxury Villa",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Lonavala",
+            "price": 18500,
+            "rating": 9.3,
+            "reviews": 356,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Tea Estate Stay",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Darjeeling",
+            "price": 6500,
+            "rating": 8.2,
+            "reviews": 167,
+            "type": "homestays",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Desert Palace",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Bikaner",
+            "price": 12800,
+            "rating": 8.8,
+            "reviews": 289,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Camp",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Rishikesh",
+            "price": 5500,
+            "rating": 8.0,
+            "reviews": 145,
+            "type": "campsites",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Beach Villa",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Kovalam",
+            "price": 16500,
+            "rating": 9.2,
+            "reviews": 378,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hill Station Resort",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Shimla",
+            "price": 11200,
+            "rating": 8.7,
+            "reviews": 267,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Business Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Mumbai",
+            "price": 14500,
+            "rating": 8.9,
+            "reviews": 456,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Eco Lodge",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Wayanad",
+            "price": 7200,
+            "rating": 8.3,
+            "reviews": 189,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Royal Palace Hotel",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Mysore",
+            "price": 19500,
+            "rating": 9.4,
+            "reviews": 512,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Mountain Cottage",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Mussoorie",
+            "price": 8500,
+            "rating": 8.5,
+            "reviews": 234,
+            "type": "holiday_homes",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Beachfront Villa",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Pondicherry",
+            "price": 15800,
+            "rating": 9.2,
+            "reviews": 278,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Tea Estate Retreat",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Darjeeling",
+            "price": 12500,
+            "rating": 8.9,
+            "reviews": 198,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Desert Oasis Resort",
+            "img": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
+            "location": "Jodhpur",
+            "price": 13200,
+            "rating": 8.8,
+            "reviews": 245,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Inn",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Varanasi",
+            "price": 6800,
+            "rating": 8.1,
+            "reviews": 167,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "twin"
+        },
+        {
+            "name": "Forest Lodge",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Bandipur",
+            "price": 9500,
+            "rating": 8.6,
+            "reviews": 189,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "City Luxury Hotel",
+            "img": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+            "location": "Delhi",
+            "price": 18500,
+            "rating": 9.3,
+            "reviews": 456,
+            "type": "hotel",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Spice Garden Resort",
+            "img": "https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904",
+            "location": "Munnar",
+            "price": 10500,
+            "rating": 8.6,
+            "reviews": 212,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Royal Heritage Palace",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+            "location": "Jaipur",
+            "price": 21500,
+            "rating": 9.5,
+            "reviews": 478,
+            "type": "country_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Riverside Villa",
+            "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+            "location": "Goa",
+            "price": 17800,
+            "rating": 9.1,
+            "reviews": 345,
+            "type": "villas",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Hill Palace Resort",
+            "img": "https://images.unsplash.com/photo-1587061949409-02df41d5e562",
+            "location": "Ooty",
+            "price": 11800,
+            "rating": 8.7,
+            "reviews": 234,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": false
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Coastal Retreat",
+            "img": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+            "location": "Kovalam",
+            "price": 13200,
+            "rating": 8.8,
+            "reviews": 256,
+            "type": "resorts",
+            "facilities": {
+                "parking": true,
+                "restaurant": true,
+                "pets_allowed": true
+            },
+            "bed_preference": "double"
+        },
+        {
+            "name": "Forest View Lodge",
+            "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db",
+            "location": "Thekkady",
+            "price": 8900,
+            "rating": 8.4,
+            "reviews": 167,
+            "type": "guest_houses",
+            "facilities": {
+                "parking": true,
+                "restaurant": false,
+                "pets_allowed": true
+            },
+            "bed_preference": "twin"
+        }
+    ]
+}

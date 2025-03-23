@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QuickBook</title>
+        <link href="./output.css" rel="stylesheet" />
+        <link href="./Footer.css" rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <div
+            class="absolute w-full h-full backdrop-filter bg-black backdrop-blur-md bg-opacity-50 z-50 text-white text-xl font-semibold justify-center items-center flex-col hidden"
+            id="mobile-menu"
+        >
+            <div class="flex flex-col gap-5">
+                <button class="absolute top-5 right-5 text-3xl" id="close-menu">
+                    <i class="ri-close-line"></i>
+                </button>
+                <button
+                    class="bg-white text-[#003b95] px-3 py-1 rounded-md border-2 border-[#749edd]"
+                >
+                    List Your Property
+                </button>
+                <button
+                    id="register-btn"
+                    class="bg-white text-[#003b95] px-3 py-1 rounded-md border-2 border-[#749edd]"
+                >
+                    Register
+                </button>
+                <button
+                    id="sign-in-btn"
+                    class="bg-white text-[#003b95] px-3 py-1 rounded-md border-2 border-[#749edd]"
+                >
+                    Sign in
+                </button>
+            </div>
+        </div>
+        <header
+            class="bg-[#003b95] px-2 md:px-20 lg:px-32 xl:px-40 2xl:px-60 text-nowrap py-2"
+        >
+            <nav class="space-y-5">
+                <!-- top -->
+                <div class="flex justify-between items-center">
+                    <img
+                        src="./logo.svg"
+                        alt="logo"
+                        class="w-52 md:w-60 lg:w-72 xl:w-80"
+                    />
+
+                    <!-- mobile nav -->
+                    <div
+                        class="flex xl:hidden items-center justify-center text-white font-extralight text-3xl"
+                    >
+                        <button
+                            class="w-16 h-16 hover:bg-white/10 rounded-lg"
+                            id="user-account"
+                        >
+                            <i class="ri-account-circle-line"></i>
+                        </button>
+                        <button id="menu">
+                            <i class="ri-menu-line"></i>
+                        </button>
+                    </div>
+
+                    <!-- desktop -->
+                    <div
+                        class="hidden xl:flex items-center justify-center text-white text-xl gap-2 font-semibold"
+                    >
+                        <button class="w-16 h-16 hover:bg-white/10 rounded-lg">
+                            INR
+                        </button>
+                        <button
+                            class="w-16 h-16 hover:bg-white/10 rounded-lg p-3"
+                        >
+                            <img
+                                src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/images-flags/In@3x.png"
+                                alt=""
+                                class="rounded-full"
+                            />
+                        </button>
+                        <button class="w-16 h-16 hover:bg-white/10 rounded-lg">
+                            <i class="ri-question-line"></i>
+                        </button>
+                        <button
+                            class="h-16 px-2 hover:bg-white/10 rounded-lg text-nowrap"
+                        >
+                            List Your Property
+                        </button>
+                        <button
+                            id="register-btn"
+                            class="bg-white text-[#003b95] px-3 py-1 rounded-md border-2 border-[#749edd]"
+                        >
+                            Register
+                        </button>
+                        <button
+                            id="sign-in-btn"
+                            class="bg-white text-[#003b95] px-3 py-1 rounded-md border-2 border-[#749edd]"
+                        >
+                            Sign in
+                        </button>
+                        <button
+                            id="admin-panel-btn"
+                            class="bg-white text-[#003b95] px-3 py-1 rounded-md border-2 border-[#749edd] hidden"
+                        >
+                            Admin Panel
+                        </button>
+                        <button
+                            class="w-16 h-16 hover:bg-white/10 rounded-lg text-4xl font-extralight hidden"
+                            id="user-account"
+                        >
+                            <i class="ri-account-circle-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- bottom -->
+                <div
+                    class="text-white flex gap-5 items-center text-xl flex-wrap"
+                >
+                    <button
+                        class="bg-white/10 px-3 py-1 border-2 border-white rounded-full"
+                    >
+                        <i class="ri-hotel-bed-line"></i> Stays
+                    </button>
+                    <button class="hover:bg-white/10 px-3 py-1 rounded-full">
+                        <i class="ri-flight-takeoff-fill"></i> Flights
+                    </button>
+                    <button class="hover:bg-white/10 px-3 py-1 rounded-full">
+                        <i class="ri-briefcase-2-line"></i> Fifht+Hotel
+                    </button>
+                    <button class="hover:bg-white/10 px-3 py-1 rounded-full">
+                        <i class="ri-car-line"></i> Car Rentals
+                    </button>
+                    <button class="hover:bg-white/10 px-3 py-1 rounded-full">
+                        <i class="ri-landscape-ai-line"></i> Attractions
+                    </button>
+                    <button class="hover:bg-white/10 px-3 py-1 rounded-full">
+                        <i class="ri-taxi-line"></i> Airport taxis
+                    </button>
+                </div>
+            </nav>
+
+            <!-- heading -->
+            <div class="text-white space-y-2 my-10 mb-20">
+                <h1 class="text-5xl font-bold">Find your next stay</h1>
+                <p class="text-2xl">
+                    Search low prices on hotels, homes and much more...
+                </p>
+            </div>
+        </header>
+
+        <main class="px-2 md:px-20 lg:px-32 xl:px-40 2xl:px-60 space-y-12">
+            <!-- search form-->
+            <div
+                class="p-1 rounded-lg flex flex-col xl:flex-row bg-yellow-500 items-center gap-2 text-xl -mt-10"
+            >
+                <div
+                    class="bg-white h-16 w-full rounded-lg px-2 overflow-hidden flex items-center gap-2"
+                >
+                    <label for="" class="text-gray-400 text-2xl"
+                        ><i class="ri-hotel-bed-line"></i
+                    ></label>
+                    <input
+                        type="text"
+                        class="placeholder:text-black h-full w-full focus:outline-none focus:placeholder:text-gray-400"
+                        placeholder="Where are you going?"
+                    />
+                </div>
+                <div
+                    class="bg-white h-16 w-full rounded-lg px-2 overflow-hidden flex items-center gap-2"
+                >
+                    <label for="" class="text-gray-400 text-2xl"
+                        ><i class="ri-calendar-2-line"></i
+                    ></label>
+                    <input
+                        type="text"
+                        class="placeholder:text-black h-full w-full xl:w-fit focus:outline-none focus:placeholder:text-gray-400"
+                        disabled
+                        placeholder="Fri-20 Dec - Sat 28 Dec"
+                    />
+                </div>
+                <div
+                    class="bg-white h-16 w-full rounded-lg px-2 overflow-hidden flex items-center gap-2"
+                >
+                    <label for="" class="text-gray-400 text-2xl"
+                        ><i class="ri-user-line"></i
+                    ></label>
+                    <input
+                        type="text"
+                        class="placeholder:text-black h-full w-full focus:outline-none focus:placeholder:text-gray-400"
+                        disabled
+                        placeholder="2 adults . 0 childeren . 1 room"
+                    />
+                </div>
+                <button
+                    class="bg-[#0057b8] h-16 w-full xl:w-fit px-5 text-white font-semibold rounded-lg"
+                >
+                    Search
+                </button>
+            </div>
+            <div id="offers"></div>
+            <div id="explore-india"></div>
+            <div id="property-banglore"></div>
+            <div id="trending-destination"></div>
+            <div id="quick-and-easy"></div>
+            <div id="deals-of-weekends"></div>
+            <div id="top-uniqie-property"></div>
+        </main>
+        <!-- footer code -->
+        <footer>
+            <div class="container">
+                <h1
+                    style="
+                        font-size: 30px;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    "
+                >
+                    Popular with Travelers from India
+                </h1>
+                <div class="tabs">
+                    <button class="tab-link active" data-tab="domestic">
+                        Domestic Cities
+                    </button>
+                    <button class="tab-link" data-tab="international">
+                        International Cities
+                    </button>
+                    <button class="tab-link" data-tab="regions">Regions</button>
+                    <button class="tab-link" data-tab="countries">
+                        Countries
+                    </button>
+                    <button class="tab-link" data-tab="places">
+                        Places to Stay
+                    </button>
+                </div>
+
+                <div id="domestic" class="tab-content active">
+                    <div class="grid">
+                        <div>Srinagar hotels</div>
+                        <div>Bangalore hotels</div>
+                        <div>Ooty hotels</div>
+                        <div>Mumbai hotels</div>
+                        <div>Lonavala hotels</div>
+                        <div>Jaipur hotels</div>
+                        <div>Hyderabad hotels</div>
+                        <div>Chennai hotels</div>
+                        <div>Puri hotels</div>
+                        <div>Pondicherry hotels</div>
+                        <div>Rishīkesh hotels</div>
+                        <div>Ayodhya hotels</div>
+                        <div>Varanasi hotels</div>
+                        <div>Pune hotels</div>
+                        <div>Varkala hotels</div>
+                        <div>Munnar hotels</div>
+                        <div>New Delhi hotels</div>
+                        <div>Mysore hotels</div>
+                        <div>Gurgaon hotels</div>
+                        <div>Manāli hotels</div>
+                        <div>Kodaikānāl hotels</div>
+                        <div>Shimla hotels</div>
+                        <div>Cochin hotels</div>
+                        <div>Kolkata hotels</div>
+                        <div>Mussoorie hotels</div>
+                        <div>Udaipur hotels</div>
+                        <div>Mahabaleshwar hotels</div>
+                        <div>Bīr hotels</div>
+                        <div>Tirupati hotels</div>
+                        <div>Gokarna hotels</div>
+                        <div>Nainital hotels</div>
+                        <div>Amritsar hotels</div>
+                        <div>Agra hotels</div>
+                        <div>Alleppey hotels</div>
+                        <div>Ahmedabad hotels</div>
+                        <div>Darjeeling hotels</div>
+                        <div>Chikmagalūr hotels</div>
+                        <div>Hampi hotels</div>
+                        <div>Yercaud hotels</div>
+                        <div>Ujjain hotels</div>
+                        <div>Jaisalmer hotels</div>
+                        <div>Tiruvannāmalai hotels</div>
+                        <div>Coimbatore hotels</div>
+                        <div>Trivandrum hotels</div>
+                        <div>Madikeri hotels</div>
+                        <div>Alibaug hotels</div>
+                        <div>Baga hotels</div>
+                        <div>Vrindāvan hotels</div>
+                        <div>Haridwār hotels</div>
+                        <div>Jodhpur hotels</div>
+                        <div>Madurai hotels</div>
+                        <div>Kasauli hotels</div>
+                        <div>Lucknow hotels</div>
+                        <div>Guwahati hotels</div>
+                        <div>Shirdi hotels</div>
+                        <div>Karjat hotels</div>
+                        <div>Kasol hotels</div>
+                        <div>Vagamon hotels</div>
+                        <div>Dehradun hotels</div>
+                        <div>Udupi hotels</div>
+                    </div>
+                </div>
+
+                <div id="international" class="tab-content">
+                    <div class="grid">
+                        <div>
+                            <div>Dubai hotels</div>
+                            <div>United Arab Emirates</div>
+                        </div>
+                        <div>
+                            <div>Singapore hotels</div>
+                            <div>Singapore</div>
+                        </div>
+                        <div>
+                            <div>Paris hotels</div>
+                            <div>France</div>
+                        </div>
+                        <div>
+                            <div>London hotels</div>
+                            <div>United Kingdom</div>
+                        </div>
+                        <div>
+                            <div>Bangkok hotels</div>
+                            <div>Thailand</div>
+                        </div>
+                        <div>
+                            <div>New York hotels</div>
+                            <div>United States of America</div>
+                        </div>
+                        <div>
+                            <div>Zurich hotels</div>
+                            <div>Switzerland</div>
+                        </div>
+                        <div>
+                            <div>Amsterdam hotels</div>
+                            <div>Netherlands</div>
+                        </div>
+                        <div>
+                            <div>Kuala Lumpur hotels</div>
+                            <div>Malaysia</div>
+                        </div>
+                        <div>
+                            <div>Barcelona hotels</div>
+                            <div>Spain</div>
+                        </div>
+                        <div>
+                            <div>Colombo hotels</div>
+                            <div>Sri Lanka</div>
+                        </div>
+                        <div>
+                            <div>Tokyo hotels</div>
+                            <div>Japan</div>
+                        </div>
+                        <div>
+                            <div>Rome hotels</div>
+                            <div>Italy</div>
+                        </div>
+                        <div>
+                            <div>Toronto hotels</div>
+                            <div>Canada</div>
+                        </div>
+                        <div>
+                            <div>Seoul hotels</div>
+                            <div>South Korea</div>
+                        </div>
+                        <div>
+                            <div>Hanoi hotels</div>
+                            <div>Vietnam</div>
+                        </div>
+                        <div>
+                            <div>Frankfurt hotels</div>
+                            <div>Germany</div>
+                        </div>
+                        <div>
+                            <div>Baku hotels</div>
+                            <div>Azerbaijan</div>
+                        </div>
+                        <div>
+                            <div>Ho Chi Minh City hotels</div>
+                            <div>Vietnam</div>
+                        </div>
+                        <div>
+                            <div>Abu Dhabi hotels</div>
+                            <div>United Arab Emirates</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="regions" class="tab-content">
+                    <div class="grid">
+                        <div>Goa</div>
+                        <div>Delhi</div>
+                        <div>North Goa</div>
+                        <div>Coorg</div>
+                        <div>Pondicherry</div>
+                        <div>South Goa</div>
+                        <div>Chandigarh Region</div>
+                        <div>Wayanad</div>
+                        <div>Delhi NCR</div>
+                        <div>Bali</div>
+                        <div>Jim Corbett National Park</div>
+                        <div>Phuket Province</div>
+                        <div>Kabini River</div>
+                        <div>Pattaya</div>
+                        <div>Ranthambore National Park</div>
+                        <div>Leh Ladakh</div>
+                        <div>Gurugram Region</div>
+                        <div>Jammu & Kashmir</div>
+                        <div>Kerala</div>
+                        <div>Andaman Islands</div>
+                    </div>
+                </div>
+
+                <div id="countries" class="tab-content">
+                    <div class="grid">
+                        <div>India</div>
+                        <div>United States of America</div>
+                        <div>United Arab Emirates</div>
+                        <div>United Kingdom</div>
+                        <div>Thailand</div>
+                        <div>France</div>
+                        <div>Sri Lanka</div>
+                        <div>Germany</div>
+                        <div>Italy</div>
+                        <div>Switzerland</div>
+                        <div>Singapore</div>
+                        <div>Canada</div>
+                        <div>Vietnam</div>
+                        <div>Spain</div>
+                        <div>Indonesia</div>
+                        <div>Japan</div>
+                        <div>Malaysia</div>
+                        <div>Netherlands</div>
+                        <div>Australia</div>
+                        <div>Nepal</div>
+                    </div>
+                </div>
+
+                <div id="places" class="tab-content">
+                    <div class="grid">
+                        <div>Resorts</div>
+                        <div>Hostels</div>
+                        <div>Homestays</div>
+                        <div>Cheap hotels</div>
+                        <div>Villas</div>
+                        <div>5-Star Hotels</div>
+                        <div>Beach Hotels</div>
+                        <div>Serviced apartments</div>
+                        <div>Pet-Friendly Hotels</div>
+                        <div>Family Hotels</div>
+                        <div>Guest Houses</div>
+                        <div>Luxury Hotels</div>
+                        <div>3-Star Hotels</div>
+                        <div>Apartments</div>
+                        <div>4-Star Hotels</div>
+                        <div>Cottages</div>
+                        <div>Boats</div>
+                        <div>Hotels with Pools</div>
+                        <div>Luxury Tents</div>
+                        <div>Hotels with Parking</div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div
+                    style="
+                        font: size 10px;
+                        padding-right: 160px;
+                        padding-left: 160px;
+                    "
+                >
+                    <!-- <span>Countries</span>.<span>Regions</span>.<span>Cities</span>.<span>Districts</span>.<span>Airports</span>.<span>Hotels</span>.<span>Places of interest</span>.<span>Vacation Homes</span>.<span>Apartments</span>.<span>Resorts</span>.<span>Villas</span>.<span>Hostels</span>.<span>B&Bs</span>.<span>Guest Houses</span>.<span>Unique places to stay</span>.<span>All destinations</span>.<span>All flight destinations</span>.<span>All car rental locations</span>.<span>All vacation destinations</span>.<span>Guides</span>.<span>Discover</span>.<span>Reviews</span>.<span>Discover monthly stays</span> -->
+                    <p>
+                        Countries . Regions . Cities . Districts . Airports .
+                        Hotels . Places of interest . Vacation Homes .
+                        Apartments . Resorts . Villas . Hostels . B&Bs . Guest
+                        Houses . Unique places to stay . All destinations . All
+                        flight destinations . All car rental locations . All
+                        vacation destinations . Guides . Discover . Reviews .
+                        Discover monthly stays.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div
+                    style="
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 20px;
+                        background-color: #f5f5f5;
+                        padding-right: 160px;
+                        padding-left: 160px;
+                    "
+                >
+                    <div>
+                        <h4>Support</h4>
+                        <ul style="list-style: none; padding: 0">
+                            <li>Coronavirus (COVID-19) FAQs</li>
+                            <li>Manage your trips</li>
+                            <li>Contact Customer Service</li>
+                            <li>Safety Resource Center</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Discover</h4>
+                        <ul style="list-style: none; padding: 0">
+                            <li>Genius loyalty program</li>
+                            <li>Seasonal and holiday deals</li>
+                            <li>Travel articles</li>
+                            <li>Booking.com for Business</li>
+                            <li>Traveller Review Awards</li>
+                            <li>Car rental</li>
+                            <li>Flight finder</li>
+                            <li>Restaurant reservations</li>
+                            <li>Booking.com for Travel Agents</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Terms and settings</h4>
+                        <ul style="list-style: none; padding: 0">
+                            <li>Privacy & cookies</li>
+                            <li>Terms & conditions</li>
+                            <li>Grievance officer</li>
+                            <li>Modern Slavery Statement</li>
+                            <li>Human Rights Statement</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Partners</h4>
+                        <ul style="list-style: none; padding: 0">
+                            <li>Extranet login</li>
+                            <li>Partner help</li>
+                            <li>List your property</li>
+                            <li>Become an affiliate</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>About</h4>
+                        <ul style="list-style: none; padding: 0">
+                            <li>About Booking.com</li>
+                            <li>How We Work</li>
+                            <li>Sustainability</li>
+                            <li>Press center</li>
+                            <li>Careers</li>
+                            <li>Investor relations</li>
+                            <li>Corporate contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    style="
+                        text-align: left;
+                        background-color: #f5f5f5;
+                        padding-left: 160px;
+                    "
+                >
+                    <div style="display: flex">
+                        <span>
+                            <img
+                                src="data:image/png;base64,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"
+                                alt="Flag"
+                                width="40"
+                                height="30"
+                            />
+                        </span>
+                    </div>
+                    <div
+                        style="
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            gap: 0px;
+                            padding-left: 160px;
+                        "
+                    >
+                        <p style="padding-bottom: 0px; margin-bottom: 5px">
+                            Booking.com is part of Booking Holdings Inc., the
+                            world leader in online travel and related services.
+                        </p>
+                        <p
+                            style="
+                                padding-top: 0px;
+                                margin-top: 0px;
+                                padding-left: 120px;
+                            "
+                        >
+                            Copyright © 1996–2024 Booking.com™. All rights
+                            reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="module" src="./Scripts/config.js" defer></script>
+        <script type="module" src="./Scripts/index.js" defer></script>
+        <script type="module" src="./Scripts/mobileNav.js" defer></script>
+        <script type="module" src="./Scripts/footer.js" defer></script>
+        <script type="module" src="./Scripts/auth.js" defer></script>
+    </body>
+</html>
