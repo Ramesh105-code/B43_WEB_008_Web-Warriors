@@ -1,0 +1,72 @@
+let apartments = [
+  {
+    name: "Skyline Suites",
+    img: "https://cf.bstatic.com/static/img/theme-index/bg_aparthotel/48bd5066204f1047092f3a1e5f4de71edcd5bf47.jpg",
+    location: "Mumbai, Maharashtra",
+    price: 20000,
+    rating: 4.8
+  },
+  {
+    name: "Urban Oasis",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/333540218.jpg?k=78acf70e6bc2e031728f1484b36e74ede462c1b17f4e21082a10f1f92ccc0ece&o=&hp=1",
+    location: "Bengaluru, Karnataka",
+    price: 15000,
+    rating: 4.7
+  },
+  {
+    name: "Lotus Apartments",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1nzomsyuSTlrFyTUa8lL-JEEgBxBFDnzJZQ&s",
+    location: "Chennai, Tamil Nadu",
+    price: 18000,
+    rating: 4.6
+  },
+  {
+    name: "Green Valley Residency",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYf1h4dlriLNCKAf8J2BACM_WZ0yojrnorng&s",
+    location: "Hyderabad, Telangana",
+    price: 12000,
+    rating: 4.5
+  },
+  {
+    name: "Palmview Apartments",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-htLBZidccIt9nxXCrmhl-Nfa0O7dc4xggQ&s",
+    location: "Pune, Maharashtra",
+    price: 9000,
+    rating: 4.3
+  },
+  {
+    name: "Royal Habitat",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5iVB00ziJua8mzGfQuwr9PkS2O1fdy8dH_wL5jfmZP0tbZOyEGNSMyYbB3my8SnwoeMg&usqp=CAU",
+    location: "Delhi, India",
+    price: 23000,
+    rating: 4.9
+  },
+  {
+    name: "Sea Breeze Apartments",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoRZyRN4QCqIMfAPU8UT2vrn7Cq4LKeLLjBUYqeFDhltrvXGAk_EthRF0gzK27h6plX7Q&usqp=CAU",
+    location: "Kochi, Kerala",
+    price: 14000,
+    rating: 4.4
+  },
+  {
+    name: "Sunrise Residency",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-htLBZidccIt9nxXCrmhl-Nfa0O7dc4xggQ&s",
+    location: "Ahmedabad, Gujarat",
+    price: 17000,
+    rating: 4.5
+  },
+  {
+    name: "Sree Reddy Ayathi",
+    img: "https://is1-3.housingcdn.com/4f2250e8/9dc90f9f9130ceaaf50d751a2db6d8cb/v8/medium/sree_reddy_ayathi-kammanahalli-bengaluru-sree_reddy_properties.jpg",
+    location: "Bengaluru, Karnataka",
+    price: 16000,
+    rating: 4.6
+  },
+  {
+    name: "D-Habitat Serviced Apartments",
+    img: "https://d-habitat.com/images/service-apartments-in-bangalore.jpg",
+    location: "Bengaluru, Karnataka",
+    price: 21000,
+    rating: 4.7
+  }
+];

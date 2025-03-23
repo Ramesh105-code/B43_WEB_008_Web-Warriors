@@ -1,0 +1,64 @@
+let popularFlights = [
+  {
+    img: "https://q-xx.bstatic.com/xdata/images/city/526x420/619666.webp?k=e68cd0f0f986f206e34c7ea54851b18b3735e66f224f592fdaf918a70239c728&o=",
+    indianLocation: "Mumbai",
+    internationalDestination: "New York",
+    dateRange: "25 Dec - 05 Jan"
+  },
+  {
+    img: "https://q-xx.bstatic.com/xdata/images/city/526x420/977226.webp?k=b1b6bb1303e3fcda25652a884b507d30a262a070db2bdea77351ff9129f9a52c&o=",
+    indianLocation: "Delhi",
+    internationalDestination: "London",
+    dateRange: "28 Dec - 10 Jan"
+  },
+  {
+    img: "https://q-xx.bstatic.com/xdata/images/city/526x420/977261.webp?k=2e7b71d0d1c3c5b3bd68898ef796748f74272f047d339815da0855a2b478ecf0&o=",
+    indianLocation: "Bangalore",
+    internationalDestination: "Dubai",
+    dateRange: "20 Dec - 30 Dec"
+  },
+  {
+    img: "https://static.toiimg.com/thumb/95226829.cms?resizemode=4&width=400",
+    indianLocation: "Chennai",
+    internationalDestination: "Singapore",
+    dateRange: "15 Dec - 25 Dec"
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh0v9tEf6pmEmlrQ3NSFhvhknWTNZV277uE_o04z33tsn4hu2R7zkNDm4bGqYbTyAVOP0&usqp=CAU",
+    indianLocation: "Kolkata",
+    internationalDestination: "Sydney",
+    dateRange: "10 Dec - 20 Dec"
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwfnL03AZb4_vqtUjeyGmVNkvFBW3ywetp2g&s",
+    indianLocation: "Ahmedabad",
+    internationalDestination: "Tokyo",
+    dateRange: "05 Dec - 15 Dec"
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScM5wQrgScTLegZRzML7d6iOHEFPOpSe58tg&s",
+    indianLocation: "Hyderabad",
+    internationalDestination: "Paris",
+    dateRange: "01 Dec - 10 Dec"
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwjeVjDWHF_HsSNoF1PvIItARIBTahdDZTYg&s",
+    indianLocation: "Pune",
+    internationalDestination: "Los Angeles",
+    dateRange: "25 Nov - 05 Dec"
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBt-TrQVZRdVmFpyZL4z8XN9FtCMCsa0o_vw&s",
+    indianLocation: "Goa",
+    internationalDestination: "Rome",
+    dateRange: "10 Nov - 20 Nov"
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSftGBSaNQ43s0xeFt-X5ll1uBrAZQtLEbmUJo-N5VOyGJ470kLla_DPAJkfp8DG3u7I0c&usqp=CAU",
+    indianLocation: "Jaipur",
+    internationalDestination: "Dubai",
+    dateRange: "15 Nov - 25 Nov"
+  }
+];
+
+console.log(popularFlights);

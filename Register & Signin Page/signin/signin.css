@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    padding: 10px 20px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Logo Styling */
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#logo img {
+    max-width: 165px; /* Adjust logo width */
+    height: auto;
+    object-fit: contain;
+}
+
+/* Right Side Options Styling */
+#right-img {
+    display: flex;
+    align-items: center;
+}
+
+#right-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Sign In Form Styling */
+#signin-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#signin-form h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#signin-form p {
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input Fields Styling */
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 0 auto 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    box-sizing: border-box;
+}
+
+/* Email Error Styling */
+#email-error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Sign In Button Styling */
+button#signin-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#signin-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Social Media Icons Styling */
+#social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#social-media img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#social-media img:hover {
+    transform: scale(1.1);
+}
+
+#apple-btn {
+    max-width: 100%;
+    max-height: 70%;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 1rem;
+    color: #888;
+    margin-top: 30px;
+}
+
+footer br {
+    display: none;
+}
+
+footer span {
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

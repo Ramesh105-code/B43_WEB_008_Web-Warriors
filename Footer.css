@@ -1,0 +1,59 @@
+.container { padding:0px 140px; 
+    margin: 20px;
+  }
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .tabs button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .tabs button.active {
+    /* background-color: #007bff; */
+    color: #007bff;
+    border-color: #007bff;
+  }
+  .tab-content {
+    display: none;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  .grid div {
+    padding: 5px;
+  }
+  footer {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 12px;
+  }
+  footer span {
+    margin: 0 10px;
+  
+  }
+  #domestic>.grid{
+      font-size: 12px;
+  }
+  #international>.grid{
+      font-size: 12px;
+  }
+  #regions>.grid{
+      font-size: 12px;
+  }
+  #countries>.grid{
+      font-size:12px;
+  }
+  #places>.grid{
+      font-size:12px;
+  }
+  

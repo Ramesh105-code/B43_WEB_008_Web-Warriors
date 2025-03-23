@@ -1,0 +1,72 @@
+let villas = [
+    {
+        img: "https://www.weekendproperties.in/photos/53/photo-107.jpeg",
+        name: "Whispering Pines Villa",
+        location: "Lonavala, Maharashtra",
+        price: 25000,
+        rating: 4.7
+    },
+    {
+        img: "https://www.weekendproperties.in/photos/53/photo-109.jpeg",
+        name: "Serenity Bliss Villa",
+        location: "Coorg, Karnataka",
+        price: 18000,
+        rating: 4.5
+    },
+    {
+        img: "https://q-xx.bstatic.com/xdata/images/hotel/max500/494284658.jpg?k=2d576c5f1aa407d8f36b2c8780ce0ade2257018821dbe2fe1282a3329c6d6c3f&o=",
+        name: "Lakeview Paradise Villa",
+        location: "Udaipur, Rajasthan",
+        price: 32000,
+        rating: 4.8
+    },
+    {
+        img: "https://etimg.etb2bimg.com/photo/97306044.cms",
+        name: "Golden Sands Villa",
+        location: "Goa",
+        price: 40000,
+        rating: 4.9
+    },
+    {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGpC6N4fsMlT85a8QBOc1aqztKs0CL3ugRKg&s",
+        name: "Mountain Retreat Villa",
+        location: "Shimla, Himachal Pradesh",
+        price: 30000,
+        rating: 4.6
+    },
+    {
+        img: "https://cdn.magzter.com/1338970523/1676359182/articles/4uQ-W075w1677219015423/1766076077.jpg",
+        name: "The Garden Escape Villa",
+        location: "Ooty, Tamil Nadu",
+        price: 22000,
+        rating: 4.4
+    },
+    {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIQ_MJvA6emPn0sAVO9yiiU8SaLIFVxqz-E8WUjD620vcmOrffa-1pdos_--251YZ7GKU&usqp=CAU",
+        name: "Sea Breeze Villa",
+        location: "Alibaug, Maharashtra",
+        price: 35000,
+        rating: 4.7
+    },
+    {
+        img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/376275661.jpg?k=739616912abd8e994160c20167984de621870e3309089dfc4431af8f15f93f01&o=&hp=1",
+        name: "Royal Sunset Villa",
+        location: "Jaipur, Rajasthan",
+        price: 28000,
+        rating: 4.6
+    },
+    {
+        img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/376275598.jpg?k=2f2d2a3f76d823c1de6441eb04e3aa572f4286e845465895851bf843180560ca&o=&hp=1",
+        name: "Majestic Highlands Villa",
+        location: "Munnar, Kerala",
+        price: 30000,
+        rating: 4.8
+    },
+    {
+        img: "https://www.saffronstays.com/blog/wp-content/uploads/2022/07/JPEG39.jpg",
+        name: "Countryside Luxe Villa",
+        location: "Panchgani, Maharashtra",
+        price: 27000,
+        rating: 4.5
+    }
+];

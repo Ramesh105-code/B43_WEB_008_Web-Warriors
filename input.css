@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bbr {
+    border: 2px solid red;
+}
+
+.bbb {
+    border: 2px solid blue;
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+@layer utilities {
+    .admin-panel-btn {
+        @apply hover:bg-blue-600 hover:text-white border-2 border-blue-600  px-4 py-2 rounded-md;
+    }
+}
