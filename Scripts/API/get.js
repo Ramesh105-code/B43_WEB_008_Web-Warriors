@@ -9,9 +9,7 @@ export async function getDatabaseData(endpoint) {
 
 
         const rawData = await response.json();
-        if(endpoint=="dealsOfWeekend"){
-         console.log(rawData,window.apiBaseUrl);
-        }
+    
 
         // Reorder the data entries with consistent property order
         const data = Object.entries(rawData).map(([key, value]) => {
